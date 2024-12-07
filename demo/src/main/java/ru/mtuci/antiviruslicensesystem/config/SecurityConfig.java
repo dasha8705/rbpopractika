@@ -18,6 +18,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+//TODO: 1. Зачем отключать cors?
+//TODO: 2. Для чего на аутентификация, если мы разрешаем все запросы
+
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
