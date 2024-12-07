@@ -10,6 +10,8 @@ import java.security.NoSuchAlgorithmException;
 import java.time.LocalDateTime;
 import java.util.Base64;
 
+//TODO: 1. Методы класса не используются
+
 @Data
 @Builder
 public class Ticket {

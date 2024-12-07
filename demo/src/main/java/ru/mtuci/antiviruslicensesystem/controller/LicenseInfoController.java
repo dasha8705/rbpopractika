@@ -7,6 +7,8 @@ import ru.mtuci.antiviruslicensesystem.service.LicenseInfoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+//TODO: 1. Во всех контроллерах отсутствует контроль доступа
+
 @RestController
 @RequestMapping("/api/v1/license-info")
 @RequiredArgsConstructor

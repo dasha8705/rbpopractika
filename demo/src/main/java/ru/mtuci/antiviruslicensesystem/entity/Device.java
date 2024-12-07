@@ -6,6 +6,8 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
+//TODO: 1. Неверная связь между устройствами и лицензиями
+
 @Entity
 @Table(name = "devices")
 @Getter

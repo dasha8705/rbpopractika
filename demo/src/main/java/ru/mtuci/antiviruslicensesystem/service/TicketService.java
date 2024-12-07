@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+//TODO: 1. Класс дублирует логику другого класса. Нужно обсудить
+//TODO: 2. Отсутствует логика подписи тикета
+
 @Service
 @RequiredArgsConstructor
 public class TicketService {

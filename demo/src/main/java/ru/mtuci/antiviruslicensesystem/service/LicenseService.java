@@ -21,6 +21,9 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+//TODO: 1. createLicense дублируется, зачем?
+//TODO: 2. .deviceCount(0) - максимально возможное число устройств
+
 // LicenseService.java
 @Service
 @RequiredArgsConstructor

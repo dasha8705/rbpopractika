@@ -18,6 +18,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 
+//TODO: 1. В методах есть неиспользуемые аргументы
+//TODO: 2. registerOrUpdateDevice странная логика
+//TODO: 3. При первой активации не запоминается пользователь
+
 @Service
 @RequiredArgsConstructor
 public class ActivationService {

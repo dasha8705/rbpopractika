@@ -17,6 +17,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//TODO: 1. device.setMacAddress(dto.getMacAddress()); - зачем?
+
 @Service
 @RequiredArgsConstructor
 public class DeviceService {
